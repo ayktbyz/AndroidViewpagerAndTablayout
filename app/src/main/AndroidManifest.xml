@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidViewPagerAndTabLayout">
         <activity
+            android:name=".ui.TextSliderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.PageSliderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.ImageSliderActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
