@@ -8,10 +8,18 @@
     android:gravity="center"
     tools:context=".ui.PageSliderActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Page Slider Page">
-    </TextView>
+ <androidx.viewpager.widget.ViewPager
+     android:id="@+id/page_slider_viewPager"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+<com.google.android.material.tabs.TabLayout
+    android:id="@+id/page_slider_tabLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</com.google.android.material.tabs.TabLayout>
+
+ </androidx.viewpager.widget.ViewPager>
 
 </LinearLayout>

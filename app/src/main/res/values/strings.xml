@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Android ViewPager and TabLayout</string>
+
+    <string name="hello_home_fragment">Hello Home fragment</string>
+    <string name="hello_contact_fragment">Hello Contact fragment</string>
+    <string name="hello_about_fragment">Hello About fragment</string>
+
+    <string name="app_home_name">Home</string>
+    <string name="app_about_name">About</string>
+    <string name="app_contact_name">Contact</string>
+
 </resources>
