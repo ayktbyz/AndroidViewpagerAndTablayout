@@ -8,10 +8,21 @@
     android:gravity="center"
     tools:context=".ui.TextSliderActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Text Slider Page">
-    </TextView>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/text_slider_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/text_slider_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp"
+        android:layout_centerInParent="true"
+        app:tabMaxWidth="10dp"
+        app:tabBackground="@drawable/tab_ticket_flight_selector"
+        android:layout_below="@id/image_slider_viewPager" />
 
 </LinearLayout>

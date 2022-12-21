@@ -7,7 +7,7 @@
         <entry key="app/src/main/res/drawable-v24/tab_indicator_selected.xml" value="0.190625" />
         <entry key="app/src/main/res/drawable-v24/tab_ticket_flight_selector.xml" value="0.190625" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.21614583333333334" />
-        <entry key="app/src/main/res/layout/activity_image_slider.xml" value="0.16041666666666668" />
+        <entry key="app/src/main/res/layout/activity_image_slider.xml" value="0.45470007732819645" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3912642319848398" />
         <entry key="app/src/main/res/layout/activity_page_slider.xml" value="0.16041666666666668" />
         <entry key="app/src/main/res/layout/activity_text_slider.xml" value="0.16041666666666668" />
@@ -15,6 +15,7 @@
         <entry key="app/src/main/res/layout/fragment_contact.xml" value="0.15217391304347827" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.15217391304347827" />
         <entry key="app/src/main/res/layout/item_image_slider.xml" value="0.19519927536231885" />
+        <entry key="app/src/main/res/layout/item_text_slider.xml" value="0.1890802864270211" />
         <entry key="app/src/main/res/layout/tab_indicator_default.xml" value="0.17447916666666666" />
       </map>
     </option>
